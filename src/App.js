@@ -4,18 +4,18 @@ import { useState } from 'react';
 
 function App() {
 
-  const[ email, setEmail ] = useState("");
-  const[ subject, setSubject ] = useState("");
-  const[ message, setMessage ] = useState("");
-  const [ master, setMaster] = useState([]);
+  // const[ email, setEmail ] = useState("");
+  // const[ subject, setSubject ] = useState("");
+  // const[ message, setMessage ] = useState("");
+  // const [ master, setMaster] = useState([]);
 
-  const sendEmail=async () => {
-      let dataSend = [
-        email, subject, message
-      ]
+  // const sendEmail=async () => {
+  //     let dataSend = [
+  //       email, subject, message
+  //     ]
 
-      setMaster([...dataSend, master]);
-  }
+  //     setMaster([...dataSend, master]);
+  // }
 
     return (
     <div className="App">
