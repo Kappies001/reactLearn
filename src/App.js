@@ -15,28 +15,12 @@ function App() {
       ]
 
       setMaster([...dataSend, master]);
-
-      // const res = await fetch(`${baseUrl}/email/sendEmail`, {
-      //   method: "POST",
-      //   body: JSON.stringify(dataSend),
-      //   headers: {
-      //     Accept: "application/json",
-      //     "Content-Type": "application/json",
-      //   },
-      // })
-      // // HANDLING ERRORS
-      // .then((res) => {
-      //   console.log(res);
-      //   if(res.status > 199 && res.status < 300) {
-      //     alert("Send Successfully");
-      //   }
-      // })
   }
 
     return (
     <div className="App">
       <header className="App-header">
-        <form>
+        {/* <form>
             <div>
               <input type="email" onChange={(e) => setEmail(e.target.value)} name="email" placeholder="email" />
             </div>
@@ -54,7 +38,9 @@ function App() {
               <span key={index}>{data}</span>
             </div>
           )
-        })}</div>
+        })}</div> */}
+        <div class="absolute inset-0 bg-black opacity-15"></div>
+        <h1 className="border px-12 py-3 rounded-lg animate-pulse mb-24">Coming Soon....</h1>
       </header>
     </div>
   );
