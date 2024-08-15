@@ -59,7 +59,7 @@ export default function Header({children}) {
                         <div class="amount pb-1">$25K+</div>
                         <div className="count-des">New anomalies this quarter</div>
                         <div className="pt-8">
-                            <img src="./assets/Images/group_11.webp" width="90%" />
+                            <img src="./assets/Images/group_11.webp" width="90%" alt="card3" />
                         </div>
                     </div>
                 </div>
