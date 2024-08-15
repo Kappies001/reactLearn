@@ -1,0 +1,87 @@
+nav{
+    transition: all 1s ease;
+    height: auto;
+}
+/* navbar */
+#sideopen_D{
+    position:absolute;
+    visibility: hidden;
+    cursor: poPoppins;
+}
+.sidebox_D{
+    display: none;
+    position:static;
+    transition: all 2s ease-in-out;
+    z-index:2;
+}
+#sideopen_D:checked ~ .sidebox_D{
+    display: block;
+    position: absolute;
+    right:0;
+    top: 64px;
+}
+.sidebar_dropdown{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: black;
+    margin: 1rem;
+    box-shadow: 1px 1px 5px gray;
+    background-color:white;
+}
+.mblist{
+    padding: 1rem;
+}
+.mblist:hover{
+    border-bottom: 1px solid #0DC195;
+}
+.navbarD{
+    height: 100px;
+    background-color: #04030A;
+}
+.navlistItem{
+    color: black;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.17px;
+}
+#headerD{
+    height: 633px;
+}
+.header_content_section{
+    height: 548px;
+}
+.contact_D{
+    color: black;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.17px;
+}
+.button_D{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    color: #04030A;
+    background-color: #FFFFFF;
+    border-radius: 11px;
+    padding: .8rem 1.8rem;
+}
+
+/* navigation contact bar */
+    .nav_contact_line{
+    background: #0DC195;
+    outline: 1px solid #0DC195;
+}
+.nav_contact{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 146.687%; /* 23.47px */
+    letter-spacing: -0.16px;
+}

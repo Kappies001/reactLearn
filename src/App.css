@@ -1,41 +1,28 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  font-size: calc(10px + 2vmin);
+.amount {
+  font-size: 46px;
   color: white;
-  background-image: url("../public/banner.jpg");
-  background-size: auto 100%;
-  background-position:center;
-  filter: blur();
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+.count-des{
+  font-size: 17px;
+  color: white;
+  font-weight:300;
+  opacity:.9;
+  font-family: 'Poppins';
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* ---------------------- CARD SECTION ----------------------
+____________________________________________________________*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+.card-content{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  opacity: .9;
 }
