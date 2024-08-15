@@ -6,7 +6,7 @@ export default function Header({children}) {
         {children}
 
         {/* header contents */}
-        <div className="flex lg:flex-row flex-col px-20 items-stretch">   
+        <div className="flex lg:flex-row flex-col px-20 items-stretch pt-8">   
             <div className="content-section flex-1 self-center">
                 <div class="title text-[64px] leading-[74px] text-center pb-12 font-medium font-[Poppins]">
                     <span className="text-indigo-500">Better<br /></span> Cloud Financial<br /> Intelligence.
