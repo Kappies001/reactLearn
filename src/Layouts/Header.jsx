@@ -6,9 +6,9 @@ export default function Header({children}) {
         {children}
 
         {/* header contents */}
-        <div className="flex lg:flex-row flex-col px-20 items-stretch pt-8">   
+        <div className="flex lg:flex-row flex-col px-8 lg:px-20 items-stretch pt-8 lg:gap-0 gap-14">   
             <div className="content-section flex-1 self-center">
-                <div class="title text-[64px] leading-[74px] text-center pb-12 font-medium font-[Poppins]">
+                <div class="title text-[40px] lg:text-[64px] leading-[50px] lg:leading-[74px] text-center pb-12 font-medium font-[Poppins]">
                     <span className="text-indigo-500">Better<br /></span> Cloud Financial<br /> Intelligence.
                 </div>
                 <div className="text-center text-[16px] pb-10 font-[Poppins]">Ternary supports the lifecycle of your cloud spend.</div>
@@ -18,9 +18,9 @@ export default function Header({children}) {
                     </button>
                 </div>
             </div>
-            <div className="flex-1 flex gap-3">
+            <div className="flex-1 flex lg:flex-row flex-col gap-3">
                 <div className="flex-1 h-full flex flex-col gap-3">
-                    <div className="bg-[#013281] rounded-lg px-6 py-3 lg:h-[90%]">
+                    <div className="bg-[#013281] rounded-lg px-6 lg:py-3 py-5 lg:h-[90%]">
                         <div class="amount pb-1">$7.5B+</div>
                         <div className="count-des">Cloud spend under<span class="lg:block inline"> manangement</span></div>
                         <div className="pt-8">
@@ -51,11 +51,11 @@ export default function Header({children}) {
                     </div>
                 </div>
                 <div className="flex-1 h-full flex flex-col gap-3">
-                    <div className="bg-[#013281] rounded-lg px-5 py-5">
+                    <div className="bg-[#013281] rounded-lg px-5 py-5 lg:order-first order-last">
                         <div class="amount pb-1">$1.5B+</div>
                         <div className="count-des">Costs savings realized</div>
                     </div>
-                    <div className="bg-[#013281] rounded-lg px-6 py-3">
+                    <div className="bg-[#013281] rounded-lg px-6 lg:py-3 py-5">
                         <div class="amount pb-1">$25K+</div>
                         <div className="count-des">New anomalies this quarter</div>
                         <div className="pt-8">

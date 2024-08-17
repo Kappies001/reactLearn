@@ -26,3 +26,18 @@ ____________________________________________________________*/
   font-family: 'Poppins';
   opacity: .9;
 }
+
+@media (max-width: 600px) {
+  .amount {
+    font-size: 39px;
+  }
+  .count-des{
+    font-size: 16px;
+  }
+  .card-title{
+    font-size: 24px;
+  }
+  .card-content{
+    font-size: 16px;
+  }
+}

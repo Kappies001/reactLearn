@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Card() {
   return (
-    <div className="card pt-3 pb-8 px-20">
+    <div className="card pt-3 pb-8 px-8 lg:px-20">
         <div className="card-innerlayer flex lg:flex-row flex-col gap-3">
             <div className="flex-1 flex lg:flex-row flex-col gap-3">
                 <div className="flex-1 p-6 rounded-lg bg-gray-100">

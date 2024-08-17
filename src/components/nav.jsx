@@ -1,12 +1,13 @@
 import React from 'react'
 import "../nav.css"
+import { HiMenuAlt3 } from "react-icons/hi";
 
 export default function nav() {
   return (
     <nav>
       <div className="py-6 nav lg:px-14 px-8 flex flex-row items-center">
           <div className="flex-none">
-              <a href="https://www.abiraamihospital.com"><img title="image" loading="lazy" width="150" alt="logo" height="64.32" src="./assets/Images/venzo_logo.webp" /></a>
+              <a href="#home"><img title="image" loading="lazy" width="150" alt="logo" height="64.32" src="./assets/Images/venzo_logo.webp" /></a>
           </div>
           <div className="flex-1 md:flex hidden justify-center">
               <div className="navlist flex flex-row gap-14 justify-center">
@@ -30,17 +31,19 @@ export default function nav() {
               </div>
           </div>
           <div className="flex-1 h-full md:hidden flex">
-              <label for="sideopen_D" className="flex items-center justify-end text-white flex  w-full text-2xl float-end">
-                  <img title="image" loading="lazy"  width="30" height="30" src="./assets/Images/menu.png" alt="menubar icon" />
+              <label for="sideopen_D" className="flex items-center justify-end text-white w-full text-2xl float-end">
+                  <HiMenuAlt3 fill="blue" size="35" />
               </label>
               <input type="checkbox" id="sideopen_D" />
               <div className="sidebox_D" id="sidebar_D">
                   <div className="sidebar_dropdown">
-                      <div className="navlistItem mblist"><a href="https://www.abiraamihospital.com">Home</a></div>
-                      <div className="navlistItem mblist"><a href="orthopedic-treatments">Treatments</a></div>
-                      <div className="navlistItem mblist"><a href="doctors">Doctors</a></div>
-                      <div className="navlistItem mblist"><a href="about-us">About Us</a></div>
-                      <div className="navlistItem mblist"><a href="contact-us">Contact Us</a></div>
+                      <div className="navlistItem mblist"><a href="#app-development">App Developement</a></div>
+                      <div className="navlistItem mblist"><a href="#product-development">Product Developement</a></div>
+                      <div className="navlistItem mblist"><a href="#digital-marketing">Digital Marketing</a></div>
+                      <div className="navlistItem mblist"><a href="#solutions">Solutions</a></div>
+                      <div className="navlistItem mblist"><a href="#pricings">Pricing</a></div>
+                      <div className="navlistItem mblist"><a href="#resources">Resources</a></div>
+                      <div className="navlistItem mblist"><a href="#company">Company</a></div>
                   </div>
               </div>
           </div>

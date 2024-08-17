@@ -85,3 +85,9 @@ nav{
     line-height: 146.687%; /* 23.47px */
     letter-spacing: -0.16px;
 }
+
+@media (max-width: 600px) {
+    .sidebox_D{
+        right: 7px !important;
+    }
+}
