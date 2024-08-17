@@ -37,20 +37,20 @@ export default function nav() {
               <input type="checkbox" id="sideopen_D" />
               <div className="sidebox_D" id="sidebar_D">
                   <div className="sidebar_dropdown">
-                      <div className="navlistItem mblist"><a href="#app-development">App Developement</a></div>
-                      <div className="navlistItem mblist"><a href="#product-development">Product Developement</a></div>
-                      <div className="navlistItem mblist"><a href="#digital-marketing">Digital Marketing</a></div>
-                      <div className="navlistItem mblist"><a href="#solutions">Solutions</a></div>
-                      <div className="navlistItem mblist"><a href="#pricings">Pricing</a></div>
-                      <div className="navlistItem mblist"><a href="#resources">Resources</a></div>
-                      <div className="navlistItem mblist"><a href="#company">Company</a></div>
+                      <div className="navlistItem mblist border-0 hover:border-indigo-500 hover:border-b-2 hover:text-indigo-500"><a href="#app-development">App Developement</a></div>
+                      <div className="navlistItem mblist border-0 hover:border-indigo-500 hover:border-b-2 hover:text-indigo-500"><a href="#product-development">Product Developement</a></div>
+                      <div className="navlistItem mblist border-0 hover:border-indigo-500 hover:border-b-2 hover:text-indigo-500"><a href="#digital-marketing">Digital Marketing</a></div>
+                      <div className="navlistItem mblist border-0 hover:border-indigo-500 hover:border-b-2 hover:text-indigo-500"><a href="#solutions">Solutions</a></div>
+                      <div className="navlistItem mblist border-0 hover:border-indigo-500 hover:border-b-2 hover:text-indigo-500"><a href="#pricings">Pricing</a></div>
+                      <div className="navlistItem mblist border-0 hover:border-indigo-500 hover:border-b-2 hover:text-indigo-500"><a href="#resources">Resources</a></div>
+                      <div className="navlistItem mblist border-0 hover:border-indigo-500 hover:border-b-2 hover:text-indigo-500"><a href="#company">Company</a></div>
                   </div>
               </div>
           </div>
           { /* contact */ }
           <div className="md:flex hidden flex-row justify-end  gap-2">
-              <button className="px-7 py-2 contact_D"><a href="log-in">Log In</a></button>
-              <button className="px-7 py-2 contact_D border-2 rounded-full font-[500]"><a href="book-demo">Book a demo</a></button>
+              <button className="px-7 py-2 contact_D hover:text-indigo-500"><a href="log-in">Log In</a></button>
+              <button className="px-7 py-2 contact_D border-2 rounded-full font-[500] transition hover:text-white hover:bg-indigo-500"><a href="book-demo">Book a demo</a></button>
           </div>
       </div>  
     </nav>

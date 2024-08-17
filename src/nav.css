@@ -31,9 +31,6 @@ nav{
 .mblist{
     padding: 1rem;
 }
-.mblist:hover{
-    border-bottom: 1px solid #0DC195;
-}
 .navbarD{
     height: 100px;
     background-color: #04030A;
