@@ -4,6 +4,7 @@ import Nav from './components/nav';
 import Header from "./Layouts/Header"
 import Section from './Layouts/Section';
 import Card from './components/Card';
+import Filter from "./components/Filter"
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
           </Header>
           <Section>
             <Card />
+            <Filter />
           </Section>
         </div>
       </div>

@@ -27,6 +27,20 @@ ____________________________________________________________*/
   opacity: .9;
 }
 
+/* ---------------------- SEARCH BOX ----------------------
+____________________________________________________________*/
+
+  .search_field {
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .card_shadow{
+    box-shadow: 1px 18px 20px rgb(193, 194, 220);
+  }
+
 @media (max-width: 600px) {
   .amount {
     font-size: 39px;
@@ -39,5 +53,8 @@ ____________________________________________________________*/
   }
   .card-content{
     font-size: 16px;
+  }
+  .card_shadow{
+    box-shadow: 1px 8px 20px rgb(193, 194, 220);
   }
 }
